@@ -1,13 +1,12 @@
 import React, { Component } from 'react';
-import './App.css';
-import ProductTab from './ProductTab.js';
+import ProductTab from './ProductTab.jsx';
 
 
 function App(){
   
     return (
       <div className="App">
-        <h1> my card</h1>
+        <h1> My Amazon Cart </h1>
         <ProductTab />
           
       </div>
